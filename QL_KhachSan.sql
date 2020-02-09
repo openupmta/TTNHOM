@@ -1,0 +1,120 @@
+﻿CREATE DATABASE QL_KhachSan
+GO
+-
+
+-- Sử dụng Database vừa tạo
+USE QL_KhachSan
+GO
+
+CREATE TABLE NhanVien
+(
+	maNV TINYINT IDENTITY(1,1) PRIMARY KEY,
+	taikhoan VARCHAR(50) UNIQUE NOT NULL,
+	matkhau VARCHAR(10) UNIQUE NOT NULL,
+	tenNV NVARCHAR(30),
+	ca VARCHAR(MAX),
+	dangnhapgannhat DATETIME,
+	luong DECIMAL(12,3)
+)
+GO
+
+CREATE TABLE KhachHang
+(
+	cmt VARCHAR(20) PRIMARY KEY,
+	taikhoan VARCHAR(50),
+	matkhau VARCHAR(10),
+	tenKH NVARCHAR(30),
+	sdt VARCHAR(11),
+	email VARCHAR(50),
+	ngaytao DATE,
+	solangiaodich INT,
+)
+
+CREATE TABLE LoaiPhong
+(
+	tenLP NVARCHAR(20) PRIMARY KEY,
+	songuoi TINYINT DEFAULT 1,
+	sogiuong TINYINT DEFAULT 1
+)
+
+ALTER TABLE LoaiPhong
+ADD CONSTRAINT C_TENLP_LOAIPHONG		CHECK (loai IN (N'phòng đơn', N'phòng đôi'))
+GO
+
+
+CREATE TABLE DichVu
+(
+	loaiDV NVARCHAR(20) PRIMARY KEY
+)
+GO
+
+ALTER TABLE DichVu
+ADD CONSTRAINT C_LOAIDV_DICHVU		CHECK (loai IN (N'theo giờ', N'theo ngày', N'theo tháng', N'quá giờ'))
+GO
+
+CREATE TABLE GiaPhong
+(
+	gia DECIMAL(10,3) DEFAULT 1,
+	loaiDV NVARCHAR(20),
+	tenLP NVARCHAR(20),
+
+	CONSTRAINT PK_GIAPHONG PRIMARY KEY(loaiDV, tenLP),
+	CONSTRAINT FK_GIAPHONG_DICHVU FOREIGN KEY(loaiDV) REFERENCES DichVu(loaiDV),
+	CONSTRAINT FK_GIAPHONG_LOAIPHONG FOREIGN KEY(tenLP) REFERENCES LoaiPhong(tenLP)
+)
+
+CREATE TABLE Phong
+(
+	sophong TINYINT IDENTITY(1,1) PRIMARY KEY,
+	lau TINYINT,
+	trangthai NVARCHAR(20),
+	--khoa ngoai
+	tenLP NVARCHAR(20),
+
+	CONSTRAINT FK_PHONG_LOAIPHONG		FOREIGN KEY(tenLP)		REFERENCES LoaiPhong(tenLP)	
+)
+GO
+
+ALTER TABLE Phong
+ADD CONSTRAINT C_TRANGTHAI_PHONG		CHECK (trangthai IN(N'trống', N'đầy', N'đã đặt trước'))
+GO
+
+CREATE TABLE PhieuChi
+(
+	maPC INT IDENTITY(1,1) PRIMARY KEY,
+	diengiai NTEXT,
+	mucchi NVARCHAR(100),
+	tongtien DECIMAL(15,3) DEFAULT 0,
+	ngaytao DATETIME NOT NULL,
+	-- khóa ngoại
+	maNV TINYINT NOT NULL,
+
+	CONSTRAINT FK_PHIEUCHI_NHANVIEN		FOREIGN KEY(maNV)	 REFERENCES NhanVien(maNV)
+)
+
+ALTER TABLE PhieuChi
+ADD CONSTRAINT C_MUCCHI_PHIEUCHI		CHECK (mucchi IN (N'tiền điện', N'tiền nước', N'tiền internet', N'tiền trả khách', N'tiền vệ sinh',N'tiền sửa chữa', N'tiền tiếp khách', N'tiền nhập kho', N'tiền chi khác' ))
+
+GO
+
+CREATE TABLE PhieuThu
+(
+	maPT INT IDENTITY(1,1) PRIMARY KEY,
+	ngaytao DATETIME NOT NULL,
+	thoigianvao DATETIME,
+	thoigianra DATETIME,
+	khuyenmai  DECIMAL(15,3) DEFAULT 0,
+	tratruoc DECIMAL(15,3) DEFAULT 0,
+	tongtien DECIMAL(15,3) DEFAULT 0,
+	hinhthucTT NVARCHAR(100),
+	trangthaitt NVARCHAR(50),
+	
+	-- khóa ngoại
+	maNV TINYINT NOT NULL,
+	sophong TINYINT NOT NULL,
+	loaiDV NVARCHAR(20) NOT NULL,
+
+	CONSTRAINT FK_PHIEUTHU_NHANVIEN		FOREIGN KEY(maNV)	 REFERENCES NhanVien(maNV),
+	CONSTRAINT FK_PHIEUTHU_PHONG		FOREIGN KEY(sophong)	 REFERENCES Phong(sophong),
+	CONSTRAINT FK_PHIEUTHU_DichVu		FOREIGN KEY(loaiDV)	 REFERENCES Phong(loaiDV)
+)
