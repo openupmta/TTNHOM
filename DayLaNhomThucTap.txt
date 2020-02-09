@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Hiếu đã sửa lần 1!
+=======
+Hiếu đã sửa lần 1
+>>>>>>> 1399be5d18da1d4dbf7b1086be4ddeb455708da5
