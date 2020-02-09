@@ -1,6 +1,7 @@
 ﻿CREATE DATABASE QL_KhachSan
 GO
--
+
+
 
 -- Sử dụng Database vừa tạo
 USE QL_KhachSan
@@ -8,6 +9,7 @@ GO
 
 CREATE TABLE NhanVien
 (
+
 	maNV TINYINT IDENTITY(1,1) PRIMARY KEY,
 	taikhoan VARCHAR(50) UNIQUE NOT NULL,
 	matkhau VARCHAR(10) UNIQUE NOT NULL,
