@@ -1,0 +1,49 @@
+phan mem quan ly kho
+	them xoa sua 
+	object hang hoa
+		id
+		ten hien thi
+		don vi tinh
+		id nha cung cap
+	don vi tinh
+		id 
+		ten hien thi
+	nha cung cap
+		id 
+		ten
+		dia chi
+		sdt
+		email
+	khach hang
+		id
+		teen
+		dia chi
+		sdt
+		email
+	
+	phieu nhap
+		id hang hoa
+		
+		ngay nhap
+	thong tin phnhap
+		id
+		id san pham
+		id nha san xuat
+		id phieu nhap
+		so luong
+		gia nhap
+		gia ban
+		tinh trang
+	phieu xuat
+		id 
+		ngay xuat
+	thong tin phieu xuat
+		id
+		id hang hoa
+		id thongtinnhap
+		soluong
+		id khach hang
+		ngay xuat
+		tinh trang
+
+	dung view de cap nhap real time 
