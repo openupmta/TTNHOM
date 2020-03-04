@@ -15,11 +15,11 @@ GO
 -- Tạo các bảng cùng khoá chính
 CREATE TABLE Sach
 (
-	MaSach CHAR(10),
+	MaSach VARCHAR(10),
 	TenSach NVARCHAR(100),
-	MaTacGia CHAR(10),
-	MaTheLoai CHAR(7),
-	MaNXB CHAR(10),
+	MaTacGia VARCHAR(10),
+	MaTheLoai VARCHAR(10),
+	MaNXB VARCHAR(10),
 	NamXuatBan INT,
 	TinhTrang NVARCHAR(100)
 
@@ -29,7 +29,7 @@ GO
 
 CREATE TABLE TacGia
 (
-	MaTacGia CHAR(10),
+	MaTacGia VARCHAR(10),
 	TenTacGia NVARCHAR(50),
 	GhiChu NTEXT
 
@@ -39,7 +39,7 @@ GO
 
 CREATE TABLE NhaXuatBan
 (
-	MaNXB CHAR(10),
+	MaNXB VARCHAR(10),
 	TenNXB NVARCHAR(100),
 	DiaChi NVARCHAR(200),
 	Email CHAR(100),
@@ -52,7 +52,7 @@ GO
 
 CREATE TABLE TheLoai
 (
-	MaTheLoai CHAR(7),
+	MaTheLoai VARCHAR(10),
 	TenTheLoai NVARCHAR(50)
 
 	CONSTRAINT PK_TheLoai PRIMARY KEY(MaTheLoai)
@@ -61,9 +61,10 @@ GO
 
 CREATE TABLE DocGia
 (
-	MaDocGia CHAR(10),
+	MaDocGia VARCHAR(10),
 	TenDocGia NVARCHAR(50),
-	MaSoThe CHAR(10),
+	DonVi NVARCHAR(50),
+	MaSoThe VARCHAR(10),
 	SoDT CHAR(11),
 	DiaChi NVARCHAR(200),
 	CMT CHAR(12)
@@ -74,7 +75,7 @@ GO
 
 CREATE TABLE TheThuVien
 (
-	MaSoThe CHAR(10),
+	MaSoThe VARCHAR(10),
 	NgayCap DATE,
 	NgayHetHan DATE,
 	GhiChu NTEXT
@@ -85,13 +86,13 @@ GO
 
 CREATE TABLE MuonTraSach
 (
-	MaMuonTra CHAR(10),
-	MaSoThe CHAR(10),
-	MaSach CHAR(10),
+	MaMuonTra VARCHAR(10),
+	MaSoThe VARCHAR(10),
+	MaSach VARCHAR(10),
 	NgayMuonSach DATE,
 	HanTraSach DATE,
 	TinhTrangKhiMuon NVARCHAR(100),
-	DaTra BIT,
+	DaTra BIT, -- 0 = chưa trả,  1 = đã trả
 	NgayTraSach DATE,
 	TinhTrangKhiTra NVARCHAR(100),
 	GhiChu NTEXT
