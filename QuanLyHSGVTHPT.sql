@@ -162,7 +162,7 @@ EXEC dbo.EnterHocSinh @MaHS = '17150205', @HoTenHS = N'Phùng Văn Trường', @
 EXEC dbo.EnterHocSinh @MaHS = '17150206', @HoTenHS = N'Đỗ Thị Hà', @GioiTinh = N'Nữ', @NgaySinh = '1999-12-08', @DiaChi = N'Vĩnh Phúc', @SDT = '0975795617', @MaLT = '17150205', @MaBT = '17150206',  @NienKhoa = '2014-2017', @DanToc = N'Kinh',@TonGiao = N'Phật Giáo', @MaLop = NULL , @MaDUT = NULL
 EXEC dbo.EnterHocSinh @MaHS = '17150207', @HoTenHS = N'Đỗ Văn Lâm', @GioiTinh = N'Nam', @NgaySinh = '1999-07-02', @DiaChi = N'Hưng Yên', @SDT = '097579568', @MaLT = '17150205', @MaBT = '17150206',  @NienKhoa = '2014-2017', @DanToc = N'Kinh',@TonGiao = N'Phật Giáo', @MaLop = NULL , @MaDUT = NULL
 EXEC dbo.EnterHocSinh @MaHS = '17150208', @HoTenHS = N'Trịnh Văn Cường', @GioiTinh = N'Nam', @NgaySinh = '1999-07-03', @DiaChi = N'Hưng Yên', @SDT = '0975795619', @MaLT = '17150205', @MaBT = '17150206',  @NienKhoa = '2014-2017', @DanToc = N'Kinh',@TonGiao = N'Phật Giáo', @MaLop = NULL , @MaDUT = NULL
-EXEC dbo.EnterHocSinh @MaHS = '17150209', @HoTenHS = N'Nguyễn Văn Tạo', @GioiTinh = N'Nam', @NgaySinh = '1999-07-04', @DiaChi = N'Hưng Yên', @SDT = '0975795610', @MaLT = '17150205', @MaBT = '17150206', @NienKhoa = '2014-2017', @DanToc = N'Kinh',@TonGiao = N'Phật Giáo', @MaLop = NULL, @MaDUT = NULL
+EXEC dbo.EnterHocSinh @MaHS = '17150209', @HoTenHS = N'Nguyễn Văn Tạo', @GioiTinh = N'Nam', @NgaySinh = '1999-07-04', @DiaChi = N'Hưng Yên', @SDT = '0975795610', @MaLT = '17150205', @MaBT = '17150206', @NienKhoa = '2014-2017', @DanToc = N'Kinh',@TonGiao = N'Tân Thiên Địa', @MaLop = NULL, @MaDUT = NULL
 
 EXEC dbo.EnterHocSinh @MaHS = '17150200', @HoTenHS = N'Trương Vô Kỵ', @GioiTinh = N'Nam', @NgaySinh = '1999-07-05', @DiaChi = N'Thái Bình', @SDT = '0975795611', @MaLT = '17150200', @MaBT = '17150201', @NienKhoa = '2015-2018', @DanToc = N'Hơ Mông',@TonGiao = N'Thiên Chúa Giáo', @MaLop = NULL, @MaDUT = NULL
 EXEC dbo.EnterHocSinh @MaHS = '17150201', @HoTenHS = N'Tôn Ngộ Không', @GioiTinh = N'Nam', @NgaySinh = '1999-07-06', @DiaChi = N'Thái Bình', @SDT = '0975795612', @MaLT = '17150200', @MaBT = '17150201', @NienKhoa = '2015-2018', @DanToc = N'Tày',@TonGiao = N'Thiên Chúa Giáo', @MaLop = NULL, @MaDUT = NULL
@@ -172,7 +172,7 @@ EXEC dbo.EnterHocSinh @MaHS = '17150204', @HoTenHS = N'Nguyễn Văn Minh', @Gio
 
 EXEC dbo.EnterHocSinh @MaHS = '17150210', @HoTenHS = N'Trương Tam Phong', @GioiTinh = N'Nam', @NgaySinh = '1998-08-01', @DiaChi = N'Sơn La', @SDT = '0975795616', @MaLT = '17150210', @MaBT = '17150211', @NienKhoa = '2016-2019', @DanToc = N'Kinh',@TonGiao = N'Thiên Chúa Giáo', @MaLop = NULL, @MaDUT = NULL
 EXEC dbo.EnterHocSinh @MaHS = '17150211', @HoTenHS = N'Nguyễn Xuân Dương', @GioiTinh = N'Nam', @NgaySinh = '1998-08-02', @DiaChi = N'Điện Biên', @SDT = '0975795617', @MaLT = '17150210', @MaBT = '17150211',  @NienKhoa = '2016-2019', @DanToc = N'Kinh',@TonGiao = N'Hồi Giáo', @MaLop = NULL, @MaDUT = NULL
-EXEC dbo.EnterHocSinh @MaHS = '17150212', @HoTenHS = N'Đinh Văn Duy', @GioiTinh = N'Nam', @NgaySinh = '1998-08-03', @DiaChi = N'Khánh Hòa', @SDT = '0975795618', @MaLT = '17150210', @MaBT = '17150211',  @NienKhoa = '2016-2019', @DanToc = N'Kinh',@TonGiao = NULL, @MaLop = NULL, @MaDUT = NULL
+EXEC dbo.EnterHocSinh @MaHS = '17150212', @HoTenHS = N'Đinh Văn Duy', @GioiTinh = N'Nam', @NgaySinh = '1998-08-03', @DiaChi = N'Khánh Hòa', @SDT = '0975795618', @MaLT = '17150210', @MaBT = '17150211',  @NienKhoa = '2016-2019', @DanToc = N'Kinh',@TonGiao = N'Thánh Đức Chúa Trời', @MaLop = NULL, @MaDUT = NULL
 EXEC dbo.EnterHocSinh @MaHS = '17150213', @HoTenHS = N'Hoàng Hải Thành', @GioiTinh = N'Nam', @NgaySinh = '1998-08-04', @DiaChi = N'Bình Dương', @SDT = '0975795619', @MaLT = '17150210', @MaBT = '17150211',  @NienKhoa = '2016-2019', @DanToc = N'Kinh',@TonGiao = NULL, @MaLop = NULL, @MaDUT = NULL
 EXEC dbo.EnterHocSinh @MaHS = '17150214', @HoTenHS = N'Trịnh Xuân Khiêm', @GioiTinh = N'Nam', @NgaySinh = '1998-08-05', @DiaChi = N'Hồ Chí Minh', @SDT = '0975795620', @MaLT = '17150210', @MaBT = '17150211',  @NienKhoa = '2016-2019', @DanToc = N'Kinh',@TonGiao = N'Phật Giáo', @MaLop = NULL, @MaDUT = NULL
 
@@ -254,31 +254,49 @@ EXEC dbo.EnterDiem @MaDiem = '8',@HocKy = 'I', @HanhKiem = N'Tốt', @NamHoc = '
 EXEC dbo.EnterDiem @MaDiem = '9',@HocKy = 'I', @HanhKiem = N'Tốt', @NamHoc = '2014-2015', @MaHS = '17150209' 
 EXEC dbo.EnterDiem @MaDiem = '10',@HocKy = 'I', @HanhKiem = N'Tốt', @NamHoc = '2014-2015', @MaHS = '17150210' 
 
+EXEC dbo.EnterDiem @MaDiem = '17',@HocKy = 'II', @HanhKiem = N'Khá', @NamHoc = '2014-2015', @MaHS = '17150201' 
+EXEC dbo.EnterDiem @MaDiem = '18',@HocKy = 'II', @HanhKiem = N'Tốt', @NamHoc = '2014-2015', @MaHS = '17150202' 
+EXEC dbo.EnterDiem @MaDiem = '19',@HocKy = 'II', @HanhKiem = N'Tốt', @NamHoc = '2014-2015', @MaHS = '17150203' 
+EXEC dbo.EnterDiem @MaDiem = '20',@HocKy = 'II', @HanhKiem = N'Khá', @NamHoc = '2014-2015', @MaHS = '17150204'
 EXEC dbo.EnterDiem @MaDiem = '11',@HocKy = 'II', @HanhKiem = N'Tốt', @NamHoc = '2014-2015', @MaHS = '17150205' 
+EXEC dbo.EnterDiem @MaDiem = '12',@HocKy = 'II', @HanhKiem = N'Khá', @NamHoc = '2014-2015', @MaHS = '17150206' 
+EXEC dbo.EnterDiem @MaDiem = '13',@HocKy = 'II', @HanhKiem = N'Khá', @NamHoc = '2014-2015', @MaHS = '17150207' 
+EXEC dbo.EnterDiem @MaDiem = '14',@HocKy = 'II', @HanhKiem = N'Tốt', @NamHoc = '2014-2015', @MaHS = '17150208' 
+EXEC dbo.EnterDiem @MaDiem = '15',@HocKy = 'II', @HanhKiem = N'Tốt', @NamHoc = '2014-2015', @MaHS = '17150209' 
+EXEC dbo.EnterDiem @MaDiem = '16',@HocKy = 'II', @HanhKiem = N'Trung Bình', @NamHoc = '2014-2015', @MaHS = '17150210' 
 
---------------------UPDATE ĐIỂM TBHK  và Học Lực----------------------------
-CREATE PROC CapNhatDiemTBHKvaHocLuc ( @MaHS varchar(10) , @HocKy varchar(50) , @NamHoc varchar(50) )
+--------------------UPDATE ĐIỂM TBHK----------------------------
+ALTER PROC CapNhatDiemTBHK ( @MaHS varchar(10) , @HocKy varchar(50) , @NamHoc varchar(50) )
 AS
 	BEGIN
-		UPDATE dbo.DIEM SET DiemTBHK = (SELECT SUM(DiemTBMH)/12 FROM dbo.DIEMCHITIETMONHOC,dbo.DIEM WHERE DIEMCHITIETMONHOC.MaDiem = dbo.DIEM.MaDiem AND DIEM.MaHS = @MaHS AND DIEM.HocKy = @HocKy AND dbo.DIEM.NamHoc = @NamHoc) WHERE DIEM.MaHS = @MaHS  AND DIEM.HocKy = @HocKy AND dbo.DIEM.NamHoc = @NamHoc
-
-		UPDATE dbo.DIEM SET dbo.DIEM.HocLuc = N'Giỏi' WHERE DIEM.DiemTBHK >= 8 AND DIEM.HocKy = @HocKy AND DIEM.MaHS = @MaHS AND dbo.DIEM.NamHoc = @NamHoc
-		UPDATE dbo.DIEM SET dbo.DIEM.HocLuc = N'Khá' WHERE DIEM.DiemTBHK < 8 AND DIEM.DiemTBHK >=6.5 AND DIEM.HocKy = @HocKy AND DIEM.MaHS = @MaHS AND dbo.DIEM.NamHoc = @NamHoc
-		UPDATE dbo.DIEM SET dbo.DIEM.HocLuc = N'Trung Bình' WHERE DIEM.DiemTBHK < 6.5 AND DIEM.DiemTBHK >=5 AND DIEM.HocKy = @HocKy AND DIEM.MaHS = @MaHS AND dbo.DIEM.NamHoc = @NamHoc
-		UPDATE dbo.DIEM SET dbo.DIEM.HocLuc = N'Yếu' WHERE DIEM.DiemTBHK <5 AND DIEM.HocKy = @HocKy AND DIEM.MaHS = @MaHS AND dbo.DIEM.NamHoc = @NamHoc
+		DECLARE @MaDiem VARCHAR(10)
+		SET @MaDiem = (SELECT MaDiem FROM dbo.DIEM WHERE MaHS = @MaHS AND HocKy = @HocKy)  
+		UPDATE dbo.DIEM SET DiemTBHK = ROUND((SELECT (SUM(DiemTBMH))/12 FROM dbo.DIEMCHITIETMONHOC WHERE dbo.DIEMCHITIETMONHOC.MaDiem = @MaDiem),2) WHERE DIEM.MaHS = @MaHS  AND DIEM.HocKy = @HocKy AND dbo.DIEM.NamHoc = @NamHoc
 	END
 --------RUN PROCEDURE --------
-EXEC CapNhatDiemTBHKvaHocLuc '17150205' , 'II'	, '2014-2015'
+EXEC CapNhatDiemTBHK '17150201' , 'I'	, '2014-2015'
+EXEC CapNhatDiemTBHK '17150201' , 'II'	, '2014-2015'
+EXEC CapNhatDiemTBHK '17150202' , 'I'	, '2014-2015'
+EXEC CapNhatDiemTBHK '17150202' , 'II'	, '2014-2015'
+EXEC CapNhatDiemTBHK '17150205' , 'I'	, '2014-2015'
+EXEC CapNhatDiemTBHK '17150205' , 'II'	, '2014-2015'
 
---------------------UPDATE ĐIỂM TỔNG KẾT CẢ NĂM----------------------------
+
+--------------------UPDATE ĐIỂM TỔNG KẾT và Học LỰC CẢ NĂM----------------------------
 ALTER PROC CapNhatDiemTK (@MaHS varchar(10) , @NamHoc varchar(50))
 AS
 	BEGIN
-		DECLARE @DiemTBHK2 FLOAT;
-		SET @DiemTBHK2 = (SELECT DiemTBHK FROM dbo.DIEM WHERE MaHS = @MaHS AND HocKy = 'II' AND NamHoc = @NamHoc );
-		UPDATE dbo.DIEM SET DiemTK = (SELECT ((SUM(DiemTBHK) + @DiemTBHK2)/3) FROM DIEM  WHERE NamHoc = @NamHoc  AND MaHS = @MaHS ) WHERE NamHoc = @NamHoc  AND MaHS = @MaHS
+		UPDATE dbo.DIEM SET DiemTK = (SELECT SUM(DiemTBHK)/2 FROM dbo.DIEM WHERE NamHoc = @NamHoc AND MaHS = @MaHS) WHERE NamHoc = @NamHoc  AND MaHS = @MaHS
+		UPDATE dbo.DIEM SET DiemTK = ROUND(DiemTK,1) WHERE NamHoc = @NamHoc  AND MaHS = @MaHS
+		--- UPDATE - HỌC LỰC---
+		UPDATE dbo.DIEM SET dbo.DIEM.HocLuc = N'Giỏi' WHERE DIEM.DiemTK >= 8 AND DIEM.MaHS = @MaHS AND dbo.DIEM.NamHoc = @NamHoc
+		UPDATE dbo.DIEM SET dbo.DIEM.HocLuc = N'Khá' WHERE DIEM.DiemTK < 8 AND DIEM.DiemTK >=6.5 AND DIEM.MaHS = @MaHS AND dbo.DIEM.NamHoc = @NamHoc
+		UPDATE dbo.DIEM SET dbo.DIEM.HocLuc = N'Trung Bình' WHERE DIEM.DiemTK < 6.5 AND DIEM.DiemTK >=5 AND DIEM.MaHS = @MaHS AND dbo.DIEM.NamHoc = @NamHoc
+		UPDATE dbo.DIEM SET dbo.DIEM.HocLuc = N'Yếu' WHERE DIEM.DiemTK <5 AND DIEM.MaHS = @MaHS AND dbo.DIEM.NamHoc = @NamHoc
 	END
 --------RUN PROCEDURE --------
+EXEC CapNhatDiemTK '17150201' , '2014-2015'
+EXEC CapNhatDiemTK '17150202' , '2014-2015'
 EXEC CapNhatDiemTK '17150205' , '2014-2015'
 
 ----------------------------ĐIỂM CHI TIẾT MÔN HỌC----------------------------------------
@@ -288,12 +306,64 @@ AS
 		INSERT INTO DIEMCHITIETMONHOC (MaDiemCTMH , DiemMieng1, DiemMieng2, Diem15 , Diem45 , DiemThi , MaMH )
 		VALUES (@MaDiemCTMH , @DiemMieng1,@DiemMieng2 , @Diem15 , @Diem45 , @DiemThi , @MaMH)
 		----UPDATE DiemTBMH
-		UPDATE dbo.DiemChiTietMonHoc SET DiemTBMH =(DiemMieng1 + DiemMieng2 + Diem15 + (Diem15 * 2) + (Diem45*3))/8
+		UPDATE dbo.DiemChiTietMonHoc SET DiemTBMH =ROUND((DiemMieng1 + DiemMieng2 + Diem15 + (Diem15 * 2) + (Diem45*3))/8,2)
 		WHERE MaDiemCTMH = @MaDiemCTMH
 	END
 ------RUN PROCEDURE
+--MSV :17150201 (HK I)
 EXECUTE EnterDiemChiTietMonHoc '1' ,8, 8 ,8, 8, 8,'1'
-EXECUTE EnterDiemChiTietMonHoc '2' ,7,7 ,7, 7, 7,'2'
+EXECUTE EnterDiemChiTietMonHoc '34' ,8, 8 ,8, 8, 8,'2'
+EXECUTE EnterDiemChiTietMonHoc '35' ,8, 8 ,8, 8, 8,'3'
+EXECUTE EnterDiemChiTietMonHoc '36' ,8, 8 ,8, 8, 8,'4'
+EXECUTE EnterDiemChiTietMonHoc '37' ,8, 8 ,8, 8, 8,'5'
+EXECUTE EnterDiemChiTietMonHoc '38' ,8, 8 ,8, 8, 8,'6'
+EXECUTE EnterDiemChiTietMonHoc '39' ,8, 8 ,8, 8, 8,'7'
+EXECUTE EnterDiemChiTietMonHoc '40' ,8, 8 ,8, 8, 8,'8'
+EXECUTE EnterDiemChiTietMonHoc '41' ,8, 8 ,8, 8, 8,'9'
+EXECUTE EnterDiemChiTietMonHoc '42' ,8, 8 ,8, 8, 8,'10'
+EXECUTE EnterDiemChiTietMonHoc '43' ,8, 8 ,8, 8, 8,'11'
+EXECUTE EnterDiemChiTietMonHoc '44' ,8, 8 ,8, 8, 8,'12'
+--MSV :17150201 (HK II)
+EXECUTE EnterDiemChiTietMonHoc '45' ,8, 8 ,8, 8, 8,'1'
+EXECUTE EnterDiemChiTietMonHoc '46' ,8, 8 ,8, 8, 8,'2'
+EXECUTE EnterDiemChiTietMonHoc '47' ,8, 8 ,8, 8, 8,'3'
+EXECUTE EnterDiemChiTietMonHoc '48' ,8, 8 ,8, 8, 8,'4'
+EXECUTE EnterDiemChiTietMonHoc '49' ,8, 8 ,8, 8, 8,'5'
+EXECUTE EnterDiemChiTietMonHoc '50' ,8, 8 ,8, 8, 8,'6'
+EXECUTE EnterDiemChiTietMonHoc '51' ,8, 8 ,8, 8, 8,'7'
+EXECUTE EnterDiemChiTietMonHoc '52' ,8, 8 ,8, 8, 8,'8'
+EXECUTE EnterDiemChiTietMonHoc '53' ,8, 8 ,8, 8, 8,'9'
+EXECUTE EnterDiemChiTietMonHoc '54' ,8, 8 ,8, 8, 8,'10'
+EXECUTE EnterDiemChiTietMonHoc '55' ,8, 8 ,8, 8, 8,'11'
+EXECUTE EnterDiemChiTietMonHoc '56' ,8, 8 ,8, 8, 8,'12'
+
+--MSV :17150202 (HK I)
+EXECUTE EnterDiemChiTietMonHoc '57' ,8, 7 ,3, 6, 6,'1'
+EXECUTE EnterDiemChiTietMonHoc '58' ,2, 1 ,8, 9, 10,'2'
+EXECUTE EnterDiemChiTietMonHoc '59' ,3, 5 ,8, 9, 4,'3'
+EXECUTE EnterDiemChiTietMonHoc '60' ,8, 9 ,8, 6, 5,'4'
+EXECUTE EnterDiemChiTietMonHoc '61' ,8, 10 ,8, 6, 9,'5'
+EXECUTE EnterDiemChiTietMonHoc '62' ,1, 2 ,6, 8, 7,'6'
+EXECUTE EnterDiemChiTietMonHoc '63' ,10, 8 ,5, 8, 3,'7'
+EXECUTE EnterDiemChiTietMonHoc '64' ,6, 7 ,4, 10, 8,'8'
+EXECUTE EnterDiemChiTietMonHoc '65' ,5, 8 ,5, 8, 3,'9'
+EXECUTE EnterDiemChiTietMonHoc '66' ,7, 9 ,10, 8, 2,'10'
+EXECUTE EnterDiemChiTietMonHoc '67' ,8, 7 ,5, 7, 8,'11'
+EXECUTE EnterDiemChiTietMonHoc '68' ,9, 10 ,10, 9, 1,'12'
+--MSV :17150202 (HK II)
+EXECUTE EnterDiemChiTietMonHoc '69' ,8, 7 ,8, 8, 9,'1'
+EXECUTE EnterDiemChiTietMonHoc '70' ,8, 7 ,8, 5, 6,'2'
+EXECUTE EnterDiemChiTietMonHoc '71' ,8, 7 ,8, 3, 10,'3'
+EXECUTE EnterDiemChiTietMonHoc '72' ,8, 7 ,5, 9, 5,'4'
+EXECUTE EnterDiemChiTietMonHoc '73' ,8, 7 ,5, 4, 4,'5'
+EXECUTE EnterDiemChiTietMonHoc '74' ,8, 6 ,5, 7, 2,'6'
+EXECUTE EnterDiemChiTietMonHoc '75' ,8, 6 ,8, 6, 4,'7'
+EXECUTE EnterDiemChiTietMonHoc '76' ,8, 6 ,8, 3, 3,'8'
+EXECUTE EnterDiemChiTietMonHoc '77' ,8, 6 ,7, 8, 1,'9'
+EXECUTE EnterDiemChiTietMonHoc '78' ,8, 6 ,3, 10, 10,'10'
+EXECUTE EnterDiemChiTietMonHoc '79' ,8, 5 ,8, 8, 7,'11'
+EXECUTE EnterDiemChiTietMonHoc '80' ,8, 5 ,8, 8, 9,'12'
+-------------------------------------------------môn lẻ
 EXECUTE EnterDiemChiTietMonHoc '3' ,6, 6 ,6, 6, 6,'3'
 EXECUTE EnterDiemChiTietMonHoc '4' ,5, 5 ,5, 5, 5,'4'
 EXECUTE EnterDiemChiTietMonHoc '5' ,10, 10 ,10, 10, 10,'5'
@@ -328,6 +398,60 @@ EXECUTE EnterDiemChiTietMonHoc '30' ,3, 3 ,3, 3, 3,'9'
 EXECUTE EnterDiemChiTietMonHoc '31' ,2, 2 ,2, 2, 2,'10'
 EXECUTE EnterDiemChiTietMonHoc '32' ,1, 1 ,1, 1, 1,'11'
 EXECUTE EnterDiemChiTietMonHoc '33' ,6, 6 ,6, 6, 6,'12'
+
+--MSV :17150201 (HK I) (Nối Điểm Chi Tiết 12 Môn Học Với Sinh VIên)
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '1'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '34'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '35'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '36'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '37'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '38'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '39'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '40'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '41'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '42'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '43'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '44'
+--MSV :17150201 (HK II)
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '17' WHERE MaDiemCTMH = '45'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '17' WHERE MaDiemCTMH = '46'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '17' WHERE MaDiemCTMH = '47'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '17' WHERE MaDiemCTMH = '48'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '17' WHERE MaDiemCTMH = '49'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '17' WHERE MaDiemCTMH = '50'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '17' WHERE MaDiemCTMH = '51'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '17' WHERE MaDiemCTMH = '52'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '17' WHERE MaDiemCTMH = '53'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '17' WHERE MaDiemCTMH = '54'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '17' WHERE MaDiemCTMH = '55'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '17' WHERE MaDiemCTMH = '56'
+
+--MSV :17150202 (HK I)
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '57'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '58'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '59'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '60'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '61'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '62'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '63'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '64'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '65'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '66'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '67'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '68'
+--MSV :17150202 (HK II)
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '18' WHERE MaDiemCTMH = '69'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '18' WHERE MaDiemCTMH = '70'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '18' WHERE MaDiemCTMH = '71'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '18' WHERE MaDiemCTMH = '72'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '18' WHERE MaDiemCTMH = '73'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '18' WHERE MaDiemCTMH = '74'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '18' WHERE MaDiemCTMH = '75'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '18' WHERE MaDiemCTMH = '76'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '18' WHERE MaDiemCTMH = '77'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '18' WHERE MaDiemCTMH = '78'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '18' WHERE MaDiemCTMH = '79'
+UPDATE DIEMCHITIETMONHOC SET MaDiem = '18' WHERE MaDiemCTMH = '80'
 
 UPDATE DIEMCHITIETMONHOC SET MaDiem = '1' WHERE MaDiemCTMH = '1'
 UPDATE DIEMCHITIETMONHOC SET MaDiem = '2' WHERE MaDiemCTMH = '2'
