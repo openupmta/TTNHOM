@@ -1,6 +1,6 @@
 ﻿CREATE DATABASE QL_KhachSan
 GO
--
+
 
 -- Sử dụng Database vừa tạo
 USE QL_KhachSan
